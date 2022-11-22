@@ -16,6 +16,6 @@ jobs:
       - name: Push to Gitopia mirror
         uses: gitopia/gitopia-mirror-action@v0.5.0
         with:
-          gitopiaWallet: "${{ secrets.GITOPIA_busaeri }}"
+          gitopiaWallet: "${{ secrets.GITOPIA_BUSAERI }}"
           remoteUrl: "gitopia://busaeri/NodeTest2"
           force: false
